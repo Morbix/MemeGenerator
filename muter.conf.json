@@ -1,0 +1,15 @@
+{
+    "executable": "/usr/bin/xcodebuild",
+    "arguments": [
+        "-workspace",
+        "MemeGenerator.xcworkspace",
+        "-scheme",
+        "MemeGenerator",
+        "-sdk",
+        "iphonesimulator",
+        "-destination",
+        "platform=iOS Simulator,name=iPhone 8",
+        "test"
+    ],
+    "exclude": ["AppDelegate.swift", "MyPlayground.playground"]
+}
