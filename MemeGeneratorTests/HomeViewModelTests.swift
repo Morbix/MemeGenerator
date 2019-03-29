@@ -19,8 +19,6 @@ final class HomeViewModelTests: QuickSpec {
         func makeBinds() {
             sut_viewModel
                 .biggerDisplay
-                //.asDriver()
-                //.drive(biggerDisplayObserver)
                 .bind(to: biggerDisplayObserver)
                 .disposed(by: disposeBag)
         }
