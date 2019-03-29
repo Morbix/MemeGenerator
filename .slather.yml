@@ -1,0 +1,12 @@
+# .slather.yml
+
+# coverage_service: cobertura_xml
+workspace: MemeGenerator.xcworkspace
+xcodeproj: MemeGenerator.xcodeproj
+scheme: MemeGenerator
+source_directory: MemeGenerator
+# output_directory: path/to/xml_report
+ignore:
+  - MemeGeneratorTests/*
+  - MemeGeneratorUITests/*
+  - Pods/*

@@ -1,0 +1,3 @@
+./cc-test-reporter before-build
+slather coverage -x
+./cc-test-reporter after-build -t cobertura --id ea8568b4a9aa10398cfa2c5e5d94be2e1bc93212cf8cfd1638c727195fb74b51
